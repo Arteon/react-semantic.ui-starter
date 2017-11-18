@@ -1,164 +1,154 @@
-# React-Semantic.UI-Starter
+# Suicrux: [demo](https://suicrux.now.sh/auth)
+> Demo sometimes becomes frozen by `now`. Retry in a few minutes, if it doesn't work.
 
-## Out-of-box:
+[![Greenkeeper badge](https://badges.greenkeeper.io/Metnew/suicrux.svg)](https://greenkeeper.io/)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fd637f7c63e74da199cec17f3f0e3fd9)](https://www.codacy.com/app/Metnew/suicrux?utm_source=github.com&utm_medium=referral&utm_content=Metnew/suicrux&utm_campaign=badger)
 
-![](https://github.com/Metnew/react-semantic.ui-starter/blob/for-gh/screen.gif)
+<!-- ![](https://github.com/Metnew/suicrux/blob/for-gh/screen.gif) -->
 
-## DEMO: [You can find it here](https://metnew.github.io/react-semantic.ui-starter/)
+<div>
+  <a target='\_blank' rel='nofollow' href='https://app.codesponsor.io/link/cFthevq5iGu9WkCHS316WqmS/Metnew/suicrux'>
+    <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/cFthevq5iGu9WkCHS316WqmS/Metnew/suicrux.svg' />
+  </a>
+</div>
 
-[![Build Status](https://travis-ci.org/Metnew/react-semantic.ui-starter.svg?branch=master)](https://travis-ci.org/Metnew/react-semantic.ui-starter)
-[![codecov](https://codecov.io/gh/Metnew/react-semantic.ui-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/Metnew/react-semantic.ui-starter)
-[![bitHound Dependencies](https://www.bithound.io/github/Metnew/react-semantic.ui-starter/badges/dependencies.svg)](https://www.bithound.io/github/Metnew/react-semantic.ui-starter/master/dependencies/npm)
-[![bitHound Dev Dependencies](https://www.bithound.io/github/Metnew/react-semantic.ui-starter/badges/devDependencies.svg)](https://www.bithound.io/github/Metnew/react-semantic.ui-starter/master/dependencies/npm)
-[![bitHound Code](https://www.bithound.io/github/Metnew/react-semantic.ui-starter/badges/code.svg)](https://www.bithound.io/github/Metnew/react-semantic.ui-starter)
-[![bitHound Overall Score](https://www.bithound.io/github/Metnew/react-semantic.ui-starter/badges/score.svg)](https://www.bithound.io/github/Metnew/react-semantic.ui-starter)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+<div><a href="https://travis-ci.org/Metnew/suicrux">
+  <img src="https://travis-ci.org/Metnew/suicrux.svg?branch=master" alt="Build Status">
+</a>
+<a href="https://gitter.im/suicrux/Lobby?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge">
+  <img src="https://badges.gitter.im/suicrux/Lobby.svg" alt="Join the chat at https://gitter.im/suicrux/Lobby">
+</a>
+<a href="https://www.bithound.io/github/Metnew/suicrux">
+  <img src="https://www.bithound.io/github/Metnew/suicrux/badges/code.svg" alt="bitHound Code">
+</a>
+<a href="https://www.bithound.io/github/Metnew/suicrux">
+  <img src="https://www.bithound.io/github/Metnew/suicrux/badges/score.svg" alt="bitHound Overall Score">
+</a>
+ <a href="https://codecov.io/gh/Metnew/suicrux">
+  <img src="https://codecov.io/gh/Metnew/suicrux/branch/master/graph/badge.svg" alt="codecov">
+</a></div>
 
-### What is it?
-Production-ready, performance-first, optimized, robust, fully-featured boilerplate/example with **Server-side rendering** and **lazy-loading** for your **new Progressive Web App**.
+## What is this?
 
-#### Lighthouse result - [you can find it here](https://googlechrome.github.io/lighthouse/viewer/?gist=cd19fc335d4dc2abfbba10ee550bd0c8)
-SPOILER: 97/100. It might be better/worse in your browser.
+**Universal** starter with **lazy-loading** for your **new Progressive Web App**.
+> [Previous release lives here.](https://github.com/Metnew/suicrux/tree/previous-3.0.0)
 
-#### Includes:
-- **[React](https://facebook.github.io/react/)** and **[Redux](http://redux.js.org/)**
-- **SASS**, **[PostCSS](https://github.com/postcss/postcss)**,  and **[styled-components](https://github.com/styled-components/styled-components)** support.
+## Quick intro
+
+### [Why this starter uses `react-semantic-ui`?](/docs/SUI.md)
+> SPOILER: because SUI and SUIR are awesome
+
+You're always free to use any other UI framework with `suicrux`.
+**[UI framework comparison here.](https://hackernoon.com/the-coolest-react-ui-frameworks-for-your-new-react-app-ad699fffd651)**
+
+## What's inside?
+
+[![bitHound Dependencies](https://www.bithound.io/github/Metnew/suicrux/badges/dependencies.svg)](https://www.bithound.io/github/Metnew/suicrux/master/dependencies/npm) [![bitHound Dev Dependencies](https://www.bithound.io/github/Metnew/suicrux/badges/devDependencies.svg)](https://www.bithound.io/github/Metnew/suicrux/master/dependencies/npm)
+
+### Client:
+
+- **[React 16](https://facebook.github.io/react/)** and **[Redux](http://redux.js.org/)**
+- **SASS**, **[PostCSS](https://github.com/postcss/postcss)**, and **[styled-components](https://github.com/styled-components/styled-components)** support.
 - **[React-Router v4](https://github.com/ReactTraining/react-router)** + **[React-Router-Redux v5](https://github.com/reactjs/react-router-redux)**
-- **[JSON-server](https://github.com/typicode/json-server)** - mock db.
-- **[rapscallion](https://github.com/FormidableLabs/rapscallion)** - async server-side rendering.
-- **[ESDoc](https://github.com/esdoc/esdoc)** - docs generator.
-- **[Redux-thunk](https://github.com/gaearon/redux-thunk)**,  **[Redux-Devtools-Extension](https://github.com/zalmoxisus/redux-devtools-extension)**
-- **[Fetch polyfill](https://github.com/github/fetch)** and **[normalizr](https://github.com/paularmstrong/normalizr)**(api response normalization)
+- **[Redux-thunk](https://github.com/gaearon/redux-thunk)**, **[Redux-Devtools-Extension](https://github.com/zalmoxisus/redux-devtools-extension)**
+- **[Fetch polyfill](https://github.com/matthew-andrews/isomorphic-fetch)**
 - **[Semantic-ui-react](http://react.semantic-ui.com/)** - UI components.
 - **[Store2](https://github.com/nbubna/store)** and **[js-cookie](https://github.com/js-cookie/js-cookie)** - LocalStorage and cookies.
-- **[Webpack 3](https://webpack.js.org)**:
-    - Babel (stage-0),
-    - **HMR**, devServer, hotMiddleware,
-    - i18n support with **[i18n-webpack-plugin](https://github.com/webpack-contrib/i18n-webpack-plugin)**
-    - Check your code with **[Eslint](https://github.com/eslint/eslint)** and **[Stylelint](https://github.com/stylelint/stylelint)** (that you can uncomment inside `postcss.config.js`)
-- **[Jest](https://facebook.github.io/jest/)** and **[Enzyme](https://github.com/airbnb/enzyme)** - awesome libraries for testing.
-- **[why-did-you-update](https://github.com/garbles/why-did-you-update)** and **[React-Addons-Perf](https://facebook.github.io/react/docs/perf.html)** for better performance optimization.
-- **[Lodash](https://lodash.com/)** - is a dependency of Semantic-ui-react.
-- **[Offline-plugin](https://github.com/NekR/offline-plugin)**, **[favicons-webpack-plugin](https://github.com/jantimon/favicons-webpack-plugin)**,  **[webpack-manifest-plugin](https://github.com/danethurber/webpack-manifest-plugin)** and **[preload-webpack-plugin](https://github.com/GoogleChrome/preload-webpack-plugin)**, **[webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)**, **[compression-webpack-plugin](https://github.com/webpack-contrib/compression-webpack-plugin)**, **[webpack-common-shake](https://github.com/indutny/webpack-common-shake)** for your new awesome app.
-- [And more tools for building and testing...](https://github.com/Metnew/react-semantic.ui-starter/blob/master/package.json)
+- **[Lodash](https://lodash.com/)** - is a dependency of SUIR.
+- **[react-async-component](https://github.com/ctrlplusb/react-async-component)** - library for lazy-loading
+- **[react-ga](https://github.com/react-ga/react-ga)** - advanced Google Analytics for React
+- **[react-intl](https://github.com/yahoo/react-intl)** - i18n.
+- **[immutable](https://facebook.github.io/immutable-js/)**, **[reselect](https://github.com/reactjs/reselect)** and **[normalizr](https://github.com/paularmstrong/normalizr)**
 
-### Usage
 
-#### Install:
+### Build (Webpack):
+
+Based on [`tiny-universal-skeleton`](https://github.com/Metnew/tiny-universal-skeleton) and includes:
+
+- Latest Webpack
+- Babel: `stage-1` and few cool plugins for development and production.
+- **HMR**, hotMiddleware,
+- Check your code with **[Eslint](https://github.com/eslint/eslint)** and **[Stylelint](https://github.com/stylelint/stylelint)** (that you can uncomment inside `postcss.config.js`)
+- **[Offline-plugin](https://github.com/NekR/offline-plugin)**
+- **[favicons-webpack-plugin](https://github.com/jantimon/favicons-webpack-plugin)**
+- **[webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)**
+- **[compression-webpack-plugin](https://github.com/webpack-contrib/compression-webpack-plugin)**
+- **[optimize-css-assets-webpack-plugin](https://github.com/NMFR/optimize-css-assets-webpack-plugin)**
+- **[autodll-webpack-plugin](https://github.com/asfktz/autodll-webpack-plugin)**
+- **[assets-webpack-plugin](https://github.com/kossnocorp/assets-webpack-plugin)**
+- **[optimize-js-plugin](https://github.com/vigneshshanmugam/optimize-js-plugin)**
+- **[wepback-assets-manifest](https://www.npmjs.com/package/webpack-assets-manifest)**
+- **[circular-dependency-plugin](https://github.com/aackerman/circular-dependency-plugin)**
+- **[extract-text-webpack-plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin)**
+
+### Server:
+
+- **[morgan](https://www.npmjs.com/package/morgan)** - request logger middleware.
+- **[helmet](https://github.com/helmetjs/helmet)** - secure your Express app.
+- **[cookie-parser](https://www.npmjs.com/package/cookie-parser)** - cookie parsing middleware.
+- **[body-parser](https://github.com/expressjs/body-parser)** - body parsing middleware
+- **[compression](https://github.com/expressjs/compression)** - compression middleware (gzip).
+- **[jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)** - JWT ~~for the win~~.
+- **[raven](https://docs.sentry.io/clients/node/)** - Sentry for Node
+
+### Other:
+
+- **[Jest](https://facebook.github.io/jest/)** - awesome testing framework.
+- [And more tools for building and testing...](https://github.com/Metnew/suicrux/blob/master/package.json)
+
+## Usage
+
+### How it works?
+
+"30-seconds guide":
 ```bash
-git clone --depth=1 https://github.com/Metnew/react-semantic.ui-starter.git
-cd react-semantic.ui-starter && rm -rf .git
-npm install
+  # Install
+  git clone --depth=1 https://github.com/Metnew/suicrux.git
+  cd suicrux
+  npm install
+  # Development
+  npm run dev
+  # Build
+  npm run build
+  # Production
+  npm run start
 ```
 
-#### ENV vars:
-BASE_API - App uses this path for requests with relative urls. By default `http://localhost:4000/api/v1` - json-server.
-BASE_API is required for `npm run ssr`, `npm run dev`, `npm run build`
+More detailed:
 
-#### Run:
+#### **[v1.0.0 Release notes](https://github.com/Metnew/suicrux/releases/tag/v1.0.0)** - most detailed description of the latest changes
 
-```bash
-###############################################################
-npm run dev # run app in dev mode, BASE_API env var is required!
-###############################################################
-npm run db  # run mock db for app(from another process)
-###############################################################
-npm run ssr # run server-side rendering (IT NEEDS already built app) and BASE_API env var is required!
-###############################################################
-```
+#### **[Most commonly asked questions are here.](/docs/faq.md)**
 
-#### Build:
+#### [Webpack configuration](/docs/webpack.md)
 
-```bash
-###############################################################
-npm run build # build app, accept next env vars:
-# APP_LANGUAGE=ru npm run build - build only selected language, if isn't set, then build app with all i18n languages!
-# ANALYZE_BUNDLE npm run build - add `webpack-bundle-analyzer` to plugins
-npm run build:demo # build with process.env.BUILD_DEMO = true
-###############################################################
-```
+#### [Available scripts](/docs/scripts.md)
 
-These commands generate the `dist` folder.
+#### [How does i18n work?](/docs/i18n.md)
 
-#### Test:
+#### [Testing](/docs/testing.md)
 
-```bash
-npm run test # run tests with Jest, BASE_API env var is required!
-```
+#### [Why does this starter use `react-semantic-ui`?](/docs/SUI.md)
 
-#### Lint:
+#### [Environment variables and configuration.](/docs/env_vars.md)
 
-```bash
-npm run lint:styles  # lint styles with Stylelint
-npm run lint:scripts # lint scripts with ESlint
-```
+#### ~~[Starter architecture and design. (not finished)](/docs/design.md)~~
 
-#### Docs:
+### Nearest future:
 
-```bash
-npm run docs # generate docs and `serve`
-```
+- CLI app
+- Redux code-splitting
 
-#### Nearest future:
+### Something very important:
 
-- **Project must be isomorphic (design in progress)**. Code must somehow works with React-Native too. I'll be very happy, if you can help me with this task :wink:, or just recommend something.
-- **Bundle server-side code with Webpack (testing implementation, in master branch soon)**
-- **SSR with HMR(testing implementation, in master branch soon)**
-- **Improved docs || how-it-works guide || article (in progress)** - project lacks some info about implementation and design.
+> Have a question? Ask! :wink:
 
-### FAQ
-
-#### Where are static assets?
-You can store static assets (images, videos) in `/static` folder.
-
-#### Where is manifest.json?
-You can find it in `webpack_config/config.js`
-
-#### Is SSR available?
-Yes! Check `/src/server/server.js`. App uses rapscallion for async rendering on server.
-
-#### How lazy-loading implemented:
-Check `src/common/routing/index.js`. TL;DR: dynamic `import()`.
-
-#### Is theming available?
-Yes, with styled-components's `<ThemeProvider>` you can specify your own theme. By default, app uses theme from [www.materialpallette.com](https://www.materialpalette.com/).
-
-#### How it differs from other starters?
-App is designed for big projects. Personally, I use almost similar boilerplate in production.
-**Main purpose - build highly customizable isomorphic(!) skeleton for PWA, with SSR, code-splitting, following best practices.**
-
-#### "You have a components folder and containers folder..and in the container you have another components folder?"
-
-Components inside `containers/**/components` are components that are required by container.
-
-For example, `Dashboard`(container) has `DashboardComponent`(component). You can think about `DashboardComponent` as "Isolated component", it isn't used in app anywhere except own parent-container.
-
-Components in components are components that:
-1. Don't have own logic and connection with state (as opposite to containers)
-2. Aren't "isolated".(!)
-
-#### Where are tests?
-There are tests for actions and for reducers.
-Each reducer/action has own folder, where you can find:
-1. Reducer/action itself.
-2. Tests for it.
-
-#### How to write tests?
-You can find [action testing example here.](https://github.com/Metnew/react-semantic.ui-starter/blob/master/src/common/actions/auth/index.test.js)
-It uses [redux-mock-store.](https://github.com/Metnew/react-semantic.ui-starter/blob/master/src/common/actions/auth/index.test.js)
-
-#### How does the built app look?
-**[Like this.](https://github.com/Metnew/react-semantic.ui-starter/tree/gh-pages)**
-
-### Also:
-
-> Have a question? Ask it. :wink:
-
-PRs, and issues are welcome :smiling_imp:
+Any help is highly appreciated. PRs, issues, questions, enhancements are always welcome.
 
 ### Author
-Vladimir Metnew <vladimirmetnew@gmail.com>
+
+Vladimir Metnew [vladimirmetnew@gmail.com](mailto:vladimirmetnew@gmail.com)
 
 ### LICENSE
 
-MIT
+Apache License 2.0
